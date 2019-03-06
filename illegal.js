@@ -1,12 +1,11 @@
-
-
 ;(function(w) {
     w.addEventListener("load", alertLooper);
 
     function alertLooper() {
         for(var i = 1; !isOddPfctNum(i); i++) {
-            w.alert(`${i} is not odd perfect number, and maybe I'll get arrested!`);
+            w.alert(`Sorry, ${i} is not odd perfect number, and maybe I'll get arrested!`);
         }
+        w.alert(`Oh, ${i} is an odd perfect number, and maybe I'll get glorious achievement!`);
     }
 
 
