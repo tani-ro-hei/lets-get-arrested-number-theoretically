@@ -1,48 +1,8 @@
-# Lets-get-arrested project
+# Let's Get Arrested Number Theoretically!
 
-（日本語の説明は英語の後に続きます）
+Forked from [Lets-get-arrested project](https://github.com/hamukazu/lets-get-arrested).
+In number theory, whether or not there are any odd perfect numbers is a open problem. `illegal.js` alerts the loop count is not a odd perfect number, while it is not so.
 
-In Japan, a schoolgirl was caught by the police for putting a link to a website with an endless loop of alert in JavaScript like this:
+## Description
 
-        while (1) {
-          alert("!");
-        }
-
-Related news articles:
-* (Japanese) [https://www3.nhk.or.jp/lnews/kobe/20190304/2020003239.html](https://www3.nhk.or.jp/lnews/kobe/20190304/2020003239.html)
-* (English) [https://www.zdnet.com/article/japanese-police-charge-13-year-old-for-sharing-unclosable-popup-prank-online/](https://www.zdnet.com/article/japanese-police-charge-13-year-old-for-sharing-unclosable-popup-prank-online/)
-
-So this is regarded as a "crime" in Japan. So let's be criminals and get arrested!
-
-Enjoy criminal life!
-
-## How to get arrested
-
-It's easy. Fork this project and branch it as gh-pages. It's all done. It would be more effective to share the url "http://youraccount.github.io/lets-get-arrested" in a SNS.
-
-## Not arrested?
-
-You can surrender yourself to the police.
-
-# みんなで逮捕されようプロジェクト
-
-日本において、以下のようなアラートの無限ループを JavaScript で書いたサイトへのリンクを貼ったことである女子中学生が警察に補導されました:
-
-        while (1) {
-          alert("!");
-        }
-
-関連記事:
-[https://www3.nhk.or.jp/lnews/kobe/20190304/2020003239.html](https://www3.nhk.or.jp/lnews/kobe/20190304/2020003239.html)
-
-よってこれは日本では「犯罪」と見做されます。それではみんなで犯罪者になり逮捕されましょう！
-
-良い犯罪者生活を！
-
-## 逮捕される方法
-
-簡単です。このプロジェクトをフォークし、 gh-pages ブランチを切ってください。それだけで終わりです。"http://あなたのアカウント.github.io/lets-get-arrested" という URL を SNS で共有するとより効果的でしょう。
-
-## なかなか逮捕されませんか？
-
-警察に自首することができます。
+This script evaluates the loop count's divisors in an ordinary way, and checks if it is a odd perfect number. So, since this is written in JavaScript, if any odd perfect number does not exist, Japanese police of course attack and arrest me!
